@@ -1,6 +1,4 @@
-# Week 4 Assignment: Hands-On Lab - Grades, Eligibility & Smart Decisions
-
-- `welcome.py`: Imports the helper functions and prints the required demonstration output.
-- `toolbox.py`: Defines `add_numbers()`, `is_pass()`, and `greet()` for reusable calculations, pass checks, and greetings.
-
-The `greet()` function was the most challenging because it needs to support both a default greeting and a custom greeting. Using a default parameter makes both cases work with one function.
+Hands-On Lab - Grades, Eligibility & Smart Decisions
+welcome.py defines and uses welcome() to print greetings for three names.
+toolbox.py defines double(), is_pass(), and greet(), then prints the required test results.
+The greet() function was the hardest to write because it needs to support both the default greeting and a custom one. The default parameter makes both cases work with the same function.
