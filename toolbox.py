@@ -1,16 +1,18 @@
-"""Reusable helper functions for the Week 4 hands-on lab."""
+def double(number):
+    return number * 2
 
 
-def add_numbers(first, second):
-    """Return the sum of two numbers."""
-    return first + second
-
-
-def is_pass(score, pass_mark=50):
-    """Return True when score meets or exceeds the pass mark."""
-    return score >= pass_mark
+def is_pass(score):
+    return score >= 50
 
 
 def greet(name, greeting="Hello"):
-    """Return a greeting for the supplied name."""
-    return f"{greeting}, {name}!"
+    return greeting + ", " + name + "!"
+
+
+print(double(7))
+print(double(10))
+print(is_pass(80))
+print(is_pass(20))
+print(greet("Amina"))
+print(greet("Brian", "Habari"))
